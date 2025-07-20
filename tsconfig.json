@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "types": ["bun-types"],
+    "baseUrl": "./src",
+    "paths": {
+      "data": ["./data.ts"]
+    },
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
